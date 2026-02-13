@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адвокат Александ Белоусов</title>
+    <!-- Подключаем шрифт Google Fonts (Roboto + Merriweather) -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome для иконок (бесплатно) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Подключаем CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка (навигация) -->
+    <header class="header">
+        <div class="container header__inner">
+            <div class="logo">
+                <a href="#">Александр Белоусов</a>
+                <span class="logo__prof">адвокат</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#advantages">Почему я</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__phone">
+                <a href="tel:+79155078765"><i class="fas fa-phone-alt"></i> +7 (915) 507-87-65</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главный экран (Hero) -->
+    <section class="hero">
+        <div class="container hero__inner">
+            <div class="hero__content">
+                <h1>Квалифицированная юридическая помощь</h1>
+                <p>Более 2 лет защищаю права и интересы своих доверителей. Индивидуальный подход, честность и результат.</p>
+                <a href="#contact" class="btn btn--primary">Бесплатная консультация</a>
+            </div>
+            <div class="hero__image">
+                <!-- Здесь можно вставить фото адвоката. Unsplash: ссылка на свободное изображение -->
+                <img src="https://images.unsplash.com/photo-1575505586569-646b2ca898fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt="Адвокат Иван Петров">
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок "О себе" -->
+    <section id="about" class="about">
+        <div class="container about__inner">
+            <div class="about__content">
+                <h2>Александр Белоусов</h2>
+                <p class="about__subtitle">Адвокат, специалист по уголовным и административным делам</p>
+                <p>Окончил какой-то ВУЗ. Осуществлял трудовую деятельность более 25 лет в таких структурах как ФСКН РФ, СУ МВД РФ, СК РФ, на должностях следователя и руководителя структурных подразделений. Стаж адвокатской деятельности — 2 года. Специализируюсь на уголовных и административных делах.</p>
+                <p>Мой принцип — найти законное и этичное решение даже в самой сложной ситуации. Работаю на результат, всегда на связи с клиентом.</p>
+                <ul class="about__list">
+                    <li><i class="fas fa-check-circle"></i> Более 100500 успешных дел</li>
+                    <li><i class="fas fa-check-circle"></i> 100% конфиденциальность</li>
+                    <li><i class="fas fa-check-circle"></i> Прозрачная и гибкая система оплаты</li>
+                </ul>
+            </div>
+            <div class="about__stats">
+                <div class="stat-item">
+                    <span class="stat-number">2+</span>
+                    <span class="stat-label">года практики</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100500+</span>
+                    <span class="stat-label">дел выиграно</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">конфиденциально</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Юридические услуги</h2>
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-gavel"></i></div>
+                    <h3>Уголовные дела</h3>
+                    <p>Представление интересов в рамках материала проверки, на стадии предварительного расследования, а также в судах разной инстанции</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-home"></i></div>
+                    <h3>Жилищные споры</h3>
+                    <p>Приватизация, выселение, раздел лицевых счетов, признание права собственности.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Семейные дела</h3>
+                    <p>Развод, раздел имущества, алименты, определение места жительства детей.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-file-signature"></i></div>
+                    <h3>Наследственные споры</h3>
+                    <p>Вступление в наследство, восстановление сроков, оспаривание завещания.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-car-crash"></i></div>
+                    <h3>Автоюрист</h3>
+                    <p>Споры со страховыми компаниями, ДТП, возмещение ущерба.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-landmark"></i></div>
+                    <h3>Земельные споры</h3>
+                    <p>Споры о границах участков, признание права собственности на землю.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section id="advantages" class="advantages">
+        <div class="container">
+            <h2 class="section-title">Почему выбирают меня</h2>
+            <div class="advantages__grid">
+                <div class="advantage-item">
+                    <i class="fas fa-balance-scale"></i>
+                    <h4>Большой опыт</h4>
+                    <p>Мой значительный опыт в данной сфере помогает найти выгодное решение проблемы клиента</p>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-clock"></i>
+                    <h4>Оперативность</h4>
+                    <p>Отвечаю на звонки и письма в день обращения, всегда держу в курсе движения дела.</p>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-ruble-sign"></i>
+                    <h4>Прозрачные цены</h4>
+                    <p>Фиксированная стоимость или почасовая оплата — выбираете вы. Никаких скрытых платежей.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты и призыв к действию -->
+    <section id="contact" class="contact">
+        <div class="container contact__inner">
+            <div class="contact__info">
+                <h2>Свяжитесь со мной</h2>
+                <p>Запишитесь на бесплатную первичную консультацию (30 минут) — я выслушаю вашу ситуацию и предложу варианты решения.</p>
+                <ul class="contact__list">
+                    <li><i class="fas fa-map-marker-alt"></i> сюда адрес коллегии или офиса</li>
+                    <li><i class="fas fa-phone-alt"></i> <a href="tel:+79155078765">+7 (915) 507-87-65</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:Электронная почта">,mail@belousov.ru</a></li>
+                    <li><i class="fas fa-clock"></i> Пн–Пт: 09:00 – 18:00</li>
+                </ul>
+                <div class="social">
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="#" aria-label="Viber"><i class="fab fa-viber"></i></a>
+                </div>
+            </div>
+            <div class="contact__form">
+                <!-- Простая форма обратной связи. Для отправки реальных писем нужен backend, еще не работает, сделать потом -->
+                <form action="#" method="post">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="tel" placeholder="Телефон" required>
+                    <textarea placeholder="Кратко опишите вопрос" rows="4"></textarea>
+                    <button type="submit" class="btn btn--primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p>&copy; 2025 Адвокат Александ Белоусов. Все права защищены.</p>
+            <p class="footer__small">Сайт не является публичной офертой. Информация носит ознакомительный характер.</p>
+        </div>
+    </footer>
+</body>
+</html>
